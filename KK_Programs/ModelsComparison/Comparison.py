@@ -5,7 +5,7 @@ import sys
 sys.path.append('../Siamese/')
 from LossFunctions import MineLossFunction0
 from RangeDictionaries import MakeHighRange, MakeLowRange
-sys.path.append('../TheDeep')
+sys.path.append('../DeepLearningSimple')
 from MLModels2 import QuickBaseModel
 
 InAs_obj = InAs()
@@ -20,7 +20,7 @@ BN_Pars = BN_obj.GetParameters()
 
 
 filenameA="../Siamese/model.keras"
-filenameB="../TheDeep/model.keras"
+filenameB="../DeepLearningSimple/model.keras"
 ModelC = load_model(filenameA)
 ModelB = load_model(filenameB)
 ModelA = QuickBaseModel().GetModel(BN_BS.shape[1:],"elu")

@@ -1,6 +1,6 @@
 import tensorflow as tf
 import time
-# from LoadData import ReadBandParametersNumpyFile, ReadBandStructureNumpyFile
+
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras import layers, models

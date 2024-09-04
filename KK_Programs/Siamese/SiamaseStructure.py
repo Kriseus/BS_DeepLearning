@@ -7,7 +7,7 @@ from RangeDictionaries import MakeLowRange, MakeHighRange
 from tensorflow.keras import models, Input
 import numpy as np
 import sys
-sys.path.append('../TheDeep/')
+sys.path.append('../DeepLearningSimple/')
 from MLModels2 import QuickBaseModel
 
 dir = '../DataFiles/SiameseNumpyFiles/500/'
@@ -51,7 +51,7 @@ def Main():
 
     print(min(OneCallback.Val_losses))
 
-    FinalModel.save("nic.keras")
+    FinalModel.save("model.keras")
 
 
 Main()

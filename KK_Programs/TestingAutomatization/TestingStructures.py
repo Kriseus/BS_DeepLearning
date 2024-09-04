@@ -3,11 +3,11 @@ import time
 import pickle as pick
 import numpy as np
 import sys
-sys.path.append('../TheDeep')
+sys.path.append('../DeepLearningSimple')
 from MLModels2 import QuickBaseModel, QuickConvModel, QuickDenseModel
 from CB import MyCallback 
 
-dir = '../DataFiles/NumpyFiles/20000/'
+dir = '../DataFiles/NumpyFiles/500/'
 TDa = np.load(dir+'rnd_mat_BandStucture.npy')
 Res = np.load(dir+'rnd_mat_OpticalParameters.npy')
 # Shape = TrainingData.shape[1:]

@@ -3,7 +3,7 @@ import numpy as np
 
 sys.path.append('../../KG_Programs/mods')
 
-#K.GawareckiMethods
+#K.G.Methods
 from data import Data
 from materials30KP_ZB import Materials30KP_ZB
 from hamiltoniansKP   import Ham30KP_ZB
