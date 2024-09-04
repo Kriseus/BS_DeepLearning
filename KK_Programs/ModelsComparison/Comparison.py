@@ -7,9 +7,7 @@ from LossFunctions import MineLossFunction0
 from RangeDictionaries import MakeHighRange, MakeLowRange
 sys.path.append('../TheDeep')
 from MLModels2 import QuickBaseModel
-# HV = MakeHighRange()
-# LV = MakeLowRange()
-# opt = convert_to_tensor([1.0,0.25,0.25])
+
 InAs_obj = InAs()
 BN_obj = BN()
 
@@ -21,9 +19,9 @@ BN_Pars = BN_obj.GetParameters()
 
 
 
-filenameA="../Siamese/nic.keras"
-filenameB="../TheDeep/nic.keras"
-ModelC = load_model(filenameA)#,custom_objects={"MineLossFunction0": MineLossFunction0(HV,LV,opt)})
+filenameA="../Siamese/model.keras"
+filenameB="../TheDeep/model.keras"
+ModelC = load_model(filenameA)
 ModelB = load_model(filenameB)
 ModelA = QuickBaseModel().GetModel(BN_BS.shape[1:],"elu")
 ModelA.set_weights(ModelC.get_weights())

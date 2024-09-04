@@ -10,7 +10,7 @@ import sys
 sys.path.append('../TheDeep/')
 from MLModels2 import QuickBaseModel
 
-dir = '../DataFiles/SiameseNumpyFiles/10000/'
+dir = '../DataFiles/SiameseNumpyFiles/500/'
 TrainingDataA = np.load(dir+'rnd_mat_BandStucture.npy')
 TrainingDataB = np.load(dir+'Twinrnd_mat_BandStucture.npy')
 ResultsA = np.load(dir+'rnd_mat_OpticalParameters.npy')

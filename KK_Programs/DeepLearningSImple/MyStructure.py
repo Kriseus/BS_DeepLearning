@@ -6,7 +6,7 @@ import sys
 from MLModels2 import QuickBaseModel
 import pickle as pick
 
-dir = '../DataFiles/NumpyFiles/20000/'
+dir = '../DataFiles/NumpyFiles/500/'
 TrainingData = np.load(dir+'rnd_mat_BandStucture.npy')
 Results = np.load(dir+'rnd_mat_OpticalParameters.npy')
 Shape = TrainingData.shape[1:]
@@ -24,5 +24,5 @@ ReturnedModel.compile(loss = keras.losses.MeanSquaredError(),optimizer = keras.o
 ReturnedModel.summary()
 ReturnedModel.fit(TrainingData, Results, epochs = Params["Epoch"], batch_size = Params["BatchSize"])
 
-ReturnedModel.save("nic.keras")
+ReturnedModel.save("model.keras")
 
