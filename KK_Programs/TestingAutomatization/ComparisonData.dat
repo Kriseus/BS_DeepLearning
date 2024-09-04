@@ -1,0 +1,30 @@
+Epochs: 5 Activation: leaky_relu Batch_Size: 101 Learning_Rate: 1e-07 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 34.543107748031616 Min_val_loss: 72.49138641357422
+#
+Epochs: 5 Activation: gelu Batch_Size: 101 Learning_Rate: 1e-07 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 46.09068465232849 Min_val_loss: 34.21988296508789
+#
+Epochs: 5 Activation: mish Batch_Size: 101 Learning_Rate: 1e-07 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 44.99130821228027 Min_val_loss: 34.21988296508789
+#
+Epochs: 5 Activation: leaky_relu Batch_Size: 101 Learning_Rate: 1e-07 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 34.856149673461914 Min_val_loss: 74.35006713867188
+#
+Epochs: 5 Activation: gelu Batch_Size: 101 Learning_Rate: 1e-07 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 64.7816743850708 Min_val_loss: 31.881790161132812
+#
+Epochs: 5 Activation: mish Batch_Size: 101 Learning_Rate: 1e-07 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 52.93194079399109 Min_val_loss: 31.881790161132812
+#
+Epochs: 5 Activation: leaky_relu Batch_Size: 101 Learning_Rate: 3.4e-06 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 39.26360249519348 Min_val_loss: 6.141572952270508
+#
+Epochs: 5 Activation: gelu Batch_Size: 101 Learning_Rate: 3.4e-06 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 48.66073536872864 Min_val_loss: 6.058751106262207
+#
+Epochs: 5 Activation: mish Batch_Size: 101 Learning_Rate: 3.4e-06 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 49.32676815986633 Min_val_loss: 6.058751106262207
+#
+Epochs: 5 Activation: mish Batch_Size: 101 Learning_Rate: 6.7e-06 Epsilon: 1e-06
+Optimizer: AdamLossFunc MSE Time: 49.213101387023926 Min_val_loss: 5.222797870635986
+#
